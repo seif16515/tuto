@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding-top: 20px;
+    background-color: transparent;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+nav .logo{
+    padding-left: 30px;
+    display: flex;
+    justify-content: left;
+    width: 80px;
+    height: 50px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 40px;
+    display: inline-block;
+    font-size: 60px;
+    transition: 2s ease-in-out;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+nav ul #li1:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+nav ul #li2:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+nav ul #li3:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+nav ul #li4:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+nav ul #li5:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+nav ul #li5{
+    text-decoration: underline;
+}
+.logo{
+    color: white;
+}
+nav ul{
+    padding-left: 680px;
+    padding-right: 0;
+}
+.pool{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/79346099834317.5efb84903de88.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pool h1{
+    padding-top: 30px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline solid white;
+}
+#li6{
+    color: aliceblue;
+    font-size: 50px;
+}
+.fire{
+    text-align: center;
+}
+#li7{
+    color: aliceblue;
+    font-size: 50px;
+}
+.fire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.water-polo{
+    height: 400px;
+    width: 50%;
+    background-image: url(https://olympique.ca/wp-content/uploads/sites/2/2011/08/water-polo13.jpg?quality=100);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    height: 400px;
+    width: 50%;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ilkol{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.text #polo{
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding-left: 50px;
+}
+.text #polo1{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+.water-polo1{
+    height: 400px;
+    width: 50%;
+    background-image: url(https://media.istockphoto.com/photos/group-of-athletic-women-on-exercise-bikes-in-a-health-club-picture-id1173507478?k=20&m=1173507478&s=612x612&w=0&h=QgWYM9dkXuROQeWYDB6konjZsCXMezNpXTyzB9tEYoI=);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text1{
+    height: 400px;
+    width: 50%;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ilkol1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1 h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.text1 #polo{
+    padding-top: 20px;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding-left: 50px;
+}
+.text1 #polo1{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    padding-left: 70px;
+    padding-top: 80px;
+}
+.finaly{
+    width: 100%;
+    height: 800px;
+    background-image: url(https://armsit.com/wp-content/uploads/2022/02/GYM-Management-System.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text22{
+    height: 80px;
+    width: 160px;
+    background-color: rgb(0, 136, 255);
+    transition: 1s;
+}
+.text22 #text2{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 35px;
+    text-decoration: none;
+
+}
+.text22:hover {    
+    background-color: rgb(38, 0, 255);
+}
+.text22:hover body{
+    scale: 1.2;
+}
+.finaly{
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icons i{
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+#i4{
+    color: rgb(255, 255, 255);
+}
+#i1{
+    color: rgb(255, 255, 255);
+}
+#i2{
+    color: rgb(255, 255, 255);
+}
+#i3{
+    color: rgb(255, 255, 255);
+}
+.footer p{
+    padding: 20px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.footer1{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+}
+.footer1 p{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    word-spacing: 5px;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    
+}
+#i4:hover{
+    color: blue;
+    transform: translateY(-10px);
+}
+#i3:hover{
+    color: rgb(0, 200, 255);
+    transform: translateY(-10px);
+}
+#i2:hover{
+    color: rgb(220, 0, 0);
+    transform: translateY(-10px);
+}
+#i1:hover{
+    color: rgb(229, 3, 3);
+    transform: translateY(-10px);
+}

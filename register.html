@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>register</title>
+</head>
+<body>
+    
+    <nav>
+        <img height="75" width="75" src="https://icons.iconarchive.com/icons/icons8/windows-8/512/Sports-Dumbbell-icon.png" class="logo">
+        <ul>
+            <li ><a  href="./home.html"><i id="li1" class="fa fa-home">home</i></a></li>
+                <li><a  href="./gear.html"><i id="li5" class="fa fa-fire ">activities</i></a></li>
+                
+                <li><a href="./seif.html"><i id="li2" class="fa fa-shopping-cart">store</i></a></li>
+                
+                <li><a href="./about.html"><i id="li3" class="fa fa-search">about</i></a></li>
+                <li><a  href="./register.html"><i id="li4" class="fa fa-sign-in">sign up</i></a></li>
+        </ul>
+    </nav>
+    
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toogle-btn" onclick="login()">log in</button>
+                <button type="button" class="toogle-btn" onclick="register()">register</button>
+            </div>
+            <div class="social-icons">
+                <img src="./124010.png">
+                <img src="./61164.png">
+                <img src="./121503.png">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <br>
+                <input type="text" class="input-field" placeholder="Enter PassWord" required>
+                <br>
+                <input type="checkbox" class="check-box"><span>Remember PassWord</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <br>
+                <input type="email" class="input-field" placeholder="Email" required>
+                <br>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">register</button>
+            </form>
+        </div>        
+    </div>
+    <div class="titr">
+        <h1>#_join_now</h1>
+    </div>
+    <script>
+        var x = document.getElementById("login")
+        var y = document.getElementById("register")
+        var z = document.getElementById("btn")
+        function register(){
+            x.style.left="-400px"
+            y.style.left="50px"
+            z.style.left="110px"
+        }
+        function login(){
+            x.style.left="50px"
+            y.style.left="450px"
+            z.style.left="0px"
+        }
+    </script>
+</body>
+</html>

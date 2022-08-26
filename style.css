@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif
+}
+body{
+    background-color: lightgray;
+}
+.navbar{
+    width: auto;
+    height: 99vh;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 8%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    display: flex;
+    justify-content: left;
+    width: 80px;
+    height: 50px;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 40px;
+    display: inline-block;
+    font-size: 60px;
+    transition: 2s ease-in-out;
+}
+nav ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 22px;
+}
+.titre{
+   text-align: center;
+}
+.titre a{
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: bisque;
+    font-size: 30px;
+    right: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline-block;
+    padding: 17px 70px;
+    transition: 0.7s ease-in-out;
+}
+.titre h1{
+    transition: 0.3s;
+    color: beige;
+    font-size: 160px;
+    font-weight: 600px;
+}
+.titre a:hover{
+    background-color: black;
+}
+.back{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back{
+        width: auto;
+        height: 100%;
+    }
+}
+nav ul #li1:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+nav ul #li2:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+nav ul #li3:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+nav ul #li4:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+nav ul #li5:hover{
+    text-decoration: underline;
+    transform: translateY(-10px);
+}
+.logo{
+    color: bisque;
+}
+.titre h1:hover{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+#bestgym{
+    border-radius: 25px;
+}
+#ysuoimg{
+    padding: 30px 10px;
+    width: 50%;
+}
+.yasuo{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    transition: 2s;
+}
+.back-g{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://canaguide.ca/datas/google-photo/0d7d7180008a4b975a2d44ab8a3cd580-Univers-Gym-Quebec-QC-Canada-CanaGuide.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 2s;
+}
+.yasuo .back-g a{
+    color: bisque;
+    font-size: 60px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 200px;
+    transition: 2s;
+    text-decoration: none;
+}
+.yasuo .back-g a:hover{
+    color: brown;
+}
+.yasuo:hover .back-g{
+    scale: 1.2;
+}
+.yasuo:hover a{
+    transform: scale(0.8);
+}
+.darius{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    cursor: pointer;
+    transition: 2s;
+    overflow: hidden;
+}
+.back-g1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://virtuagymfr.b-cdn.net/wp-content/uploads/sites/5/2021/04/quel-sera-le-futur-du-secteur-du-fitness.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+}
+.darius .back-g1 a{
+    color: bisque;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    align-items: center;  
+    transition: 2s;
+    position: relative;
+    padding-top: 200px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.darius .back-g1 a:hover{
+    color:brown
+}
+.darius:hover .back-g1{
+    scale: 1.2;
+}
+.darius:hover a{
+    transform: scale(0.8);
+}
+.all{
+    display: flex;
+    flex: 50%;
+}
+#li1{
+    text-decoration: underline;
+    color: bisque;
+}
+.footer{
+    height: 250px;
+    width: 100%;
+    background-image: url(./background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icons i{
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+#i4{
+    color: rgb(255, 255, 255);
+}
+#i1{
+    color: white;
+}
+#i2{
+    color: rgb(255, 255, 255);
+}
+#i3{
+    color: rgb(255, 255, 255);
+}
+.footer p{
+    padding: 20px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: aliceblue;
+}
+.description{
+    float: right;
+    height: 500px;
+    width: 55%;
+    background-image: url(./renomer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.write{
+    float: left;
+    height: 500px;
+    width: 45%;
+    background-image: url(./background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-right: 90px;
+    padding-left: 30px;
+}
+.write h1{
+    font-size: 60px;
+    font-family: Raleway;
+    color: bisque;
+    padding-left: 10px;
+
+}
+.write p{
+    font-size: 20px;
+    font-family: Raleway;
+    color: bisque;
+    word-spacing: 5px;
+    margin: 20px;
+}
+.write a{
+    color: aliceblue;
+}
+.description1{
+    float: left;
+    height: 500px;
+    width: 55%;
+    background-image: url(./group-fitness-strength-conditioning.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.write1{
+    float: right;
+    height: 500px;
+    width: 45%;
+    background-image: url(./background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-right: 90px;
+    padding-left: 30px;
+}
+.write1 h1{
+    font-size: 60px;
+    font-family: Raleway;
+    color: bisque;
+    padding-left: 10px;
+
+}
+.write1 p{
+    font-size: 20px;
+    font-family: Raleway;
+    color: bisque;
+    word-spacing: 5px;
+    margin: 20px;
+}
+.write1 a{
+    color: aliceblue;
+}
+.footer1{
+    height: 60px;
+    background-image: url(./background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer1 p{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: aliceblue;
+    word-spacing: 5px;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    
+}
+#i4:hover{
+    color: blue;
+    transform: translateY(-10px);
+}
+#i3:hover{
+    color: rgb(0, 200, 255);
+    transform: translateY(-10px);
+}
+#i2:hover{
+    color: rgb(220, 0, 0);
+    transform: translateY(-10px);
+}
+#i1:hover{
+    color: rgb(229, 3, 3);
+    transform: translateY(-10px);
+}
+
+
+
